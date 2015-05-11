@@ -2,35 +2,59 @@
 
 header {
 	background: firebrick;
+	font-family: 'Abel', sans-serif;
+}
+
+/* Article Headings */
+article section {
+	position: relative;
+}
+
+
+article h3 {
+	background: #000;
+	font-family: 'Abel', sans-serif;
+	padding: 4px;
+	position: absolute;
+	left: -20px;
+	top: 0;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px #fff;
 }
 
 /* App */
 article section:nth-child(1) {
 	background: orange;
+	font-family: 'Abel', sans-serif;
 }
 
 /* Entree */
 article section:nth-child(2) {
 	background: gold;
+	font-family: 'Abel', sans-serif;
 }
 
 /* Dessert */
 article section:nth-child(3) {
 	background: green;
+	font-family: 'Abel', sans-serif;
 }
 
 /* Drinks */
 article section:nth-child(4) {
 	background: darkblue;
+	font-family: 'Abel', sans-serif;
 }
 
 
 /* Contact Information */
 footer section:nth-child(1) {
 	background: purple;
+	font-family: 'Abel', sans-serif;
 }
 
 /* Allergy Information */
 footer section:nth-child(2) {
 	background: violet;
+	font-family: 'Abel', sans-serif;
 }
