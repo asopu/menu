@@ -1,1 +1,36 @@
 /* Your Styling */
+
+header {
+	background: firebrick;
+}
+
+/* App */
+article section:nth-child(1) {
+	background: orange;
+}
+
+/* Entree */
+article section:nth-child(2) {
+	background: gold;
+}
+
+/* Dessert */
+article section:nth-child(3) {
+	background: green;
+}
+
+/* Drinks */
+article section:nth-child(4) {
+	background: darkblue;
+}
+
+
+/* Contact Information */
+footer section:nth-child(1) {
+	background: purple;
+}
+
+/* Allergy Information */
+footer section:nth-child(2) {
+	background: violet;
+}
