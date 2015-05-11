@@ -1,8 +1,10 @@
 /* Your Styling */
 
 header {
-	background: firebrick;
+	background: #ca4814;
 	font-family: 'Abel', sans-serif;
+	font-size: 2.25em;
+	text-transform: uppercase;
 }
 
 /* Article Headings */
@@ -12,49 +14,54 @@ article section {
 
 
 article h3 {
-	background: #000;
+	background: #ca4814;
 	font-family: 'Abel', sans-serif;
+	font-size: 1em;
 	padding: 4px;
 	position: absolute;
 	left: -20px;
 	top: 0;
 	text-transform: uppercase;
-	text-shadow: 3px 3px 10px #fff;
+	
+}
+
+p {
+	background: #F8C7B3;
 }
 
 /* App */
 article section:nth-child(1) {
-	background: orange;
+	background: ;
 	font-family: 'Abel', sans-serif;
 }
 
 /* Entree */
 article section:nth-child(2) {
-	background: gold;
+	background: ;
 	font-family: 'Abel', sans-serif;
 }
 
 /* Dessert */
 article section:nth-child(3) {
-	background: green;
+	background: ;
 	font-family: 'Abel', sans-serif;
 }
 
 /* Drinks */
 article section:nth-child(4) {
-	background: darkblue;
+	background: ;
 	font-family: 'Abel', sans-serif;
 }
 
 
 /* Contact Information */
 footer section:nth-child(1) {
-	background: purple;
+	background: #9E3106;
 	font-family: 'Abel', sans-serif;
 }
 
 /* Allergy Information */
 footer section:nth-child(2) {
-	background: violet;
-	font-family: 'Abel', sans-serif;
+	background: #9E3106;
+	font-family: 'Abel', sans-serif;CA4814
 }
